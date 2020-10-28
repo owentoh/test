@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git '/home/test'
+				git 'https://github.com/owentoh/test.git'
 			}
 		}
 
